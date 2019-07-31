@@ -6,7 +6,12 @@
 
 $('.big-and-round')
 
-var $liArr = $('li')
+var $li = $('li')
 
-var $last = $liArr[$liArr.length - 1]
+var $last = $li[$li.length - 1]
+
+$le.fadeOut(3000, function() {
+    alert('Faded')
+})
+
 
